@@ -1,0 +1,89 @@
+# Python Bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django Migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Django Static and Media Files
+/static/
+/media/
+
+# Local Environment Files
+.env
+*.env
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Virtual Environments
+venv/
+.venv/
+env/
+virtualenv/
+env.bak/
+.env.bak/
+
+# Python Packages
+*.egg-info/
+.eggs/
+*.egg
+
+# Database Files
+*.sqlite3
+db.sqlite3
+
+# Node Modules (if using frontend tools like React with Django)
+node_modules/
+
+# Cache Files
+*.cache
+.DS_Store
+Thumbs.db
+
+# Celery and Task Queues
+celerybeat-schedule
+celerybeat.pid
+
+# Gunicorn & Supervisor PID Files
+*.pid
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+*.coverage.*
+
+# Pytest Cache
+.pytest_cache/
+
+# Pipenv & Poetry
+Pipfile.lock
+.poetry/
+
+# MyPy
+.mypy_cache/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Heroku
+*.buildpack
+.procfile
+
+# Sentry DSNs
+.sentrycli
+
+# Secrets
+secrets.json
+config/settings/secret.py
